@@ -1,7 +1,25 @@
 ---
 layout: post
-title: "fcm57-my-story"
+title: "57期 - 我的故事"
 date: 2012-09-22 13:34
 comments: true
-categories: 
+categories: issue57 my-story
 ---
+
+Written by Charles McColm
+
+My tech journey began like many of my generation - on a Commodore 64. August 1983, I became involved with BUG, the Barrie Users’ Group, a group then dedicated to hacking Commodore hardware and software. BUG turned me on to Bulletin Board Systems (BBS). It was hard not to become enchanted by BBS technology: multi-line door games, informative forums, and the System Operator (sysop) breaking in to chat. For several years, I ran my own BBS, at first under MS DOS, then IBM’s OS/2 Warp operating system. Which brings up a funny story. 
+
+Late 1995, I went to Comdex in Toronto, with evaluating both Windows 95 and OS/2 in mind. I visited both booths, and was stunned by how rude the Microsofties were. I patiently waited at their booth to test a machine only to be summarily booted off. The IBM camp was busy too, but they were much more pleasant, and not only showed me OS/2 but connected me with a sysop running OS/2. When I went home, I was fired up about OS/2. I went to a local computer store where it so happened that another local sysop worked. When I went to buy OS/2, he vehemently warned me against buying OS/2 saying I should buy Windows 95 when it came out. Long story short: my BBS was up and running the same afternoon, and he never did get his working under Windows 95.
+
+It was shortly after I started running OS/2 that my youngest brother came home from University with a Slackware Linux CD. It was interesting, but for some reason that eludes me, I ended up subscribing to the Walnut Creek FreeBSD CD-ROMs. In a Richard Stallman-like fashion, it was a printer driver that turned me back to Linux.
+
+I also hooked up with a small group of individuals looking to create a Linux desktop, WCLP, for 486DX computers with 16 MB of RAM and a 500 MB hard drive. That project connected me with another not-for-profit project, The Working Centre’s Computer Recycling Project. For the past six years, I’ve been blessed to be the manager of that project. In the mid-2000’s, the Linux distribution we started was surpassed by other projects with similar goals. When it came time to decide on a new Linux distribution for our Linux builds, I went with the hot new thing: Ubuntu 4.10. Since that time we haven’t looked back. 
+
+Our project is also a part of the Microsoft Registered Refurbisher program. The Working Centre has for many years provided computer basics training and Microsoft Office training, so it’s helpful that we also offer Microsoft Windows and Microsoft Office on certain machines. Microsoft has been very good to us and kept the cost of licenses low enough that we can pretty much offer them on par with our Linux systems.
+
+What surprises some is that we sell almost as many Linux machines as we do Windows machines. I attribute this to a few factors: even with unattended installations, it’s still often easier for us to install Linux; Linux is easier for us to support because we don’t have to deal with malware as much; Linux tends to work better with the variety of hardware we have without us having to download drivers separately (printers for example).
+
+Of course not everything is perfect, so, when someone considers buying an Ubuntu Linux system, we sit them down in front of a machine, give them a brief overview about using Ubuntu Software Centre, Firefox and LibreOffice, and let them decide if they feel comfortable enough to try Ubuntu. 
+
+Most people are comfortable when they learn they can do many of the same jobs in Ubuntu Linux. Many of the people we work with haven’t tried Linux before, and I’m often surprised to learn they’re still running Linux months later. I suppose I shouldn’t be surprised - all Linux really takes is the willingness to learn and play.

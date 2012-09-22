@@ -1,7 +1,155 @@
 ---
 layout: post
-title: "fcm57-review"
+title: "57期 - 评测 openArtist 5th Incarnation"
 date: 2012-09-22 13:34
 comments: true
-categories: 
+categories: issue57 review
 ---
+
+Written by Art Schreckengost
+
+In the past, I've reviewed some unknown Ubuntu derivatives, but recently I came across one so obscure I'm not quite sure how I found it.
+
+I'm referring to openArtist 5th Incarnation (oA hereafter), an OS that has managed to stay hidden even though it's been out 3 years (DistroWatch and Wikipedia have zip). About the only information I could gather was limited to either the website (www.openartisthq.org) or 2009 developer posts on BlenderNation.com and BlenderArtists.org. 
+
+But this transparency is largely on purpose as the developer (an Austrian student going by the name cellstorm) has opted to keep his OS underground until he's sure it's ready for wide release.
+
+Based upon 64-bit Ubuntu Maverick 10.10, oA packs the Linux 2.6.35 kernel with Gnome 2.32 desktop as default. 3 versions of Openbox are offered as alternates along with Hildon, all of which will be reviewed shortly.
+
+The website is largely a work-in-progress, so forums appear sporadically used while the news-page consists of a one-sentence entry from February 2011, stating a new version has been released (a revision several months later gets no mention). The download from this site links to SourceForge.net, and shows over 70 downloads per week (so why such little press?).
+
+Releases, as you may have gathered, get the title of “Incarnation,” and each new version gets a whole number instead of the usual decimal point system. I can find no 1st - instead 2nd, 3rd, and 4th Incarnations were released in March, June and December 2009, after which the pace slowed until 5th was issued in February 2011 (with a revision, but no number change, in October).
+
+At 2.9GB, the ISO image may seem hefty, but this is 1GB less than ArtistX and 600MB less than oA 4th Incarnation, the previous release. Recommended HDD allotment is 10GB (it does take 9) but that's for live mode users (using a flash drive with persistence). Those opting for full installation would be wise to allocate no less than 20GB. I'll explain why later.
+
+I opted for full installation on my Acer laptop but there are oddities and warnings to watch for. First, the keyboard defaults to UK settings, so don't blindly click on the forward button unless you desire that (cellstorm is changing this to US).
+
+Second, pay heed to the pop-up warning box. Due to some programs being modified, they will not work properly - unless “tux” is used as both the user-ID and password, at least initially. Enter whatever you like but the installer automatically defaults to tux (the password can be changed post-installation but the user-ID must remain tux).
+
+Installation was breezy at 30 minutes, but what's really impressive is that the post-install updates were a minuscule 10MB indicating the latest updates were slipstreamed into the image. Hallelujah!
+
+By the way, you'll be prompted by the Canonical nag to upgrade to 11.04 but don't! I tried it just out of curiosity, and it not only failed but created an unusable OS.
+
+Unlike Ubuntu, where you'll see a splash screen and have no clue what's going on in the background, oA gives users scrolling hardware checks for roughly 45 seconds until the Gnome desktop appears. There is no musical ditty, either.
+
+As for drivers and codecs, let's just say if your file won't play or open, it's defective. There were no hardware issues, and resource usage was within reason (RAM rarely peaked above 20% of my 4GB, and processor stress averaged 20% too, with the occasional spike to 40%). Compiz settings are dialed down, which helps, but users can add all the flaming windows and wobbly menus they desire if their video card will take it. Wireless worked out of the box, and even my video card didn't need a driver (something that Ubuntu usually nails me for after the first boot).
+
+The desktop design consists of black and gray sweeps punctuated by the Ubuntu circle of friends dead center with the oA triple arrowhead logo in the center of that (think Mitsubishi logo with arrowheads instead of diamonds). Several alternate backgrounds are available including atomic bomb blast pics (odd for an artistic venture).
+
+Top and bottom panels are there, with the lower bunk reserved to park minimized apps or browser windows. It's the top that will catch your eye. To the left are menu entries for 2D, 3D, AUD, VID, VJ, hardware (represented by a video card icon) programming (shown as binary code), and collaboration (two hands clasped) along with the usual main menu button consisting of the oA arrowhead logo. Clicking on any one of these causes a menu to drop with the appropriate programs.
+
+To the right are the ubiquitous time, date, wireless, sound, and battery icons - with extras for Guake Terminal, Dropbox and easystroke.
+
+This does make for crowded real estate up top, but cellstorm includes alternate designs in the Switch Gnome Layout program ranging from XP lookalikes and Gnome standards to tablet oriented offerings.
+
+After you've got the desktop design decision settled, it's time to pay a visit to the main menu, but you had better be prepared. Synaptic Package Manager shows 3,400 installed packages along with 130 PPA sources while the website listing of applications shows 1,400 installed. 
+
+As a side note, don't be like me and attempt to print the website applications listing – it's over 30 pages.
+
+In short, oA is a packed house.
+
+Let me give fair warning by stating the menu design is at first awkward. 
+
+Opening the main menu produces the standard Gnome structure - with major division headings (and a few more), but cellstorm redesigned the sub-menus. Instead of alphabetical listings, programs are separated by specific use and put in blocks, each separated by a barely visible line. While each block is alphabetized, the sequence starts again for each block. As a result you may see programs starting with A after those starting with M.
+
+For example, Office is broken into 9 program blocks I call Creative Writing, LibreOffice, PDF Tools, Presentation, Slide Presentation, Mind-Mapping, Home Budgeting, Drawing, and Database. Relevant programs are in each block and alphabetized accordingly, but first-timers will be confused since the listing process starts anew for each block.
+
+While there is logic in this design (grouping programs by use instead of alphabetically but randomly), the dark theme all but obliterates the separator lines, and since there are no block sub-titles, users will have to play a guessing game until they get the gist of it.
+
+Changing to a lighter theme did make the separator lines stand out and that may help some.
+
+An unintended consequence of program blocks is that adding new programs doesn't guarantee they'll be placed where you hope (or expect) and finding existing apps is something of a chore.
+
+GoldenDict is under Office but Dictionary got slapped into Utilities and when I installed Google Chrome the menu heading got tossed in a block containing BitTorrent clients instead of the one reserved for browsers. 
+
+This means you'll have to play cat-and-mouse to find programs until you adjust to the sequence (I found it easier to park app icons on the desktop or panels).
+
+There is no easy way to change this menu structure, although you could go through Main Menu or alacarte and switch program locations (imagine doing that for 1,400 programs!).
+
+Any perceived shortcomings in such a design are outweighed by cellstorm's inclusion of heavily modified mouse-over program descriptions, some of which span several hundred words over several paragraphs as opposed to the usual Ubuntu cryptic one-liners. Mind you, he has done this for hundreds of programs, and it's really time to give up if you can't figure out what an app does after reading these mini-tutorials!
+
+Design features aside, it's time to discuss what the menu contains. Below is a listing of maybe 5 to 10% of the total programs included in any category (forgive me if I misspell a few):
+
+2D Graphics: Gimp, Inkscape, Skencil, vectormagic, Shotwell, Picasa, RawTherapee, Darkroom, gThumb, Rapid Photo Downloader, Karbon 14, Xara, DNGConverter, Stop Motion Capture, Agave, F-Spot, Fotowall, Cinepaint, Fotoxx, FontForge, Pixelize, GimPhoto, Gimp PaintersStudio, ArtRage, Disc Wrapper, Pencil, Hugin, Peacock, MyPaint, Krita.
+
+3D Graphics: Blender 2.5 and 2.4, Houdini, Lodepaint, shaderlink, shaderdesigner, 3Delight, freestyle, Luxrender, Pantograph, Yararay, Librecad, Helios, DraftSight, Sweet Home 3D, Blender Game Engine, MeshLab, Wings3D, ArtofIllusion.
+
+Audio: Aqualung, Audacious, Amarok, Mixxx, aquaduo, Audacity, Patchage, Traverso, PsychoSynth, Hydrogen, Jackbeat, Qutesound, darksnow, Shoutcast, DeaDBeef, VLC, Banshee, Stretch Player, Renoise, SLTV, Oscilloscope, Flumotion, Ardour, Rosegarden, Jokosher, Ableton Live.
+
+Video: Cinelerra, OpenShot, Pitivi, Handbrake, DeVeDe, 2ManDVD, k9copy, make.tv, OGMRip, AcidRip, dvdisaster, Videoporama, Webcamstudio, Wxcam, Gimp Animation, Avidemux.
+
+VJ: Veejay, freej, freemix, fluxus.
+
+Hardware: Arduino, Fritzing, LightControl, Wacom Control Panel, Wiican.
+
+Collaboration: Chandler, Nixnote, AbiWord, Helga, DrawPile, Dropbox, celtx.
+
+Internet: Midori, Firefox, Thunderbird, utorrent, Minitube, JBidwatcher, Bid-O-Matic, Pidgin, Skype, Google Earth, Google Gadgets, Nicotine, Chromium, Opera, RSS Owl.
+
+Office: Storybook, BookWrite, TextRoom, Planner, OpenProj, GanttProject, Time Tracer, Install LibreOffice, AbiWord, TaskJuggler, PDF Mod, Impress!ve, iFreeBudget, HomeBank, PyCAD, LyX Document Processor.
+
+Programming: Qt Creator, Komodo-Edit, gedit, Aptana Studio, Python 2.6 and 3.1, BlueGriffon, Bluefish, Amaya, Thingamablog.
+
+Utilities: Gscrot, Parcellite, Searchmonkey, Furious ISO Mount, Screenlets
+
+Games: Yo Frankie!, Secret Mario Chronicles, dji Game Manager, SuperTuxKart, atanks
+
+System (Control Center): Ubuntu One, Wireshark, aircrack-ng, Gparted, Brasero, K3b, Turbojet CD/DVD, Lacie 4L Lightscribe, ISO Master, Furious ISO Mount, UNetbootin, mintUpdate, BleachBit, Ubuntu Tweak, conky, Remastersys, Clonezilla, luckyBackup, Firestarter, Vidalia Tor GUI, Seahorse, RamDefrag, Guake Terminal, Easystroke MouseGestures. 
+
+While this may appear impressive, what's really astounding is that another 1,000+ apps are not listed above!
+
+Naturally, there is a sense of redundancy in having this many programs, but they are there and users have the option of using what they want and ignoring or uninstalling the rest.
+
+The beauty of oA is that programs cover a wide range of categories and are not all artist-oriented. Most menu categories are well stocked, and some odd security apps are in the mix such as Wireshark and aircrack-ng. Even Firefox has the Scroogle Scraper add-on that cloaks web searches. Must be underground artists out there enjoying wireless code cracking - while remaining anonymous.
+
+But there is a bit of hocus-pocus in the menu. Not all of what you see is actually there.
+
+Although not an accurate count, nearly 60 programs have either gray question marks or white boxes with blue borders as icons, and these designate recommended but not installed programs (only one, LibreOffice, had “Install” in the title, the rest were just marked with icons). According to the website, these were not installed due to space or licensing issues (the design of icons for these programs also varied. Some got question marks, while others saw the blue and white boxes - so I can only guess each computer interprets the icons differently).
+
+Clicking on one of these “programs-to-be” initiates a process in which a terminal window opens to execute an automatic apt-get install command. There is no user interaction in most cases beyond this – just sit back and watch the show.
+
+While some are small and take little time, others are humongous. Ableton Live was 620MB to download, and took 900MB once installed, and a few others tipped the scales at 100MB+. When all was said and done, I saw my HDD usage balloon from 9GB to nearly 16GB, which is why I'd recommend no less than 20GB if you plan a full installation. Those opting to use persistence via a USB drive had better plan on buying the largest stick available.
+
+Would it be simpler to make a list of affected programs and perform a one-time bulk download via Synaptic Package Manager?
+
+Sounds great, but it's not quite that easy. Some of these programs are not listed in the repositories, and a couple (like virtualdub and avisynth) are Windows programs designed to work in Wine. Try if you like but I seriously doubt it will shave much time off the procedure. 
+
+How long did it take me to install these apps? Roughly 8 hours over 2 days. Of course there is nothing to say you must install these, but it's nice to know they are available should the need arise.
+
+There were a couple of installation failures, such as Remastersys and LibreOffice, but these turned out to be site problems or links pointing to out-of-date versions (the former has been discontinued while the latter apparently changed versions). In both cases, I merely found other outlets and got the programs from there.
+
+In most behemoths like oA, you can expect a raft of programs that don't work, but I had just one failure to cooperate, and that belonged to mintUpdate (it had a stroke during a repository update so I switched to Ubuntu Tweak and never had a problem again). These are not cellstorm problems, so I'm not going to ding him there.
+
+Those preferring other than Gnome have four desktop choices -- Hildon, Openbox, Ardour, and Blender (the last two being Openbox variations that autostart the listed program).
+
+Originally designed for Nokia devices using the Maemo.org OS, cellstorm admits Hildon is an experiment at this time and, quite frankly, it never worked for me. Consisting of a black background with a settings icon in the right corner, users will soon discover this icon disappears if a mouse click comes remotely close, and the only way out is Ctrl, Alt and backspace. 
+
+Unless you like playing “chase the disappearing icon”, pass on Hildon.
+
+Openbox has the standard desktop or variations that open either Ardour or Blender automatically (but the underlying desktop is still Openbox). No matter the choice, Openbox operated much quicker than Gnome once booted (LibreOffice scooted to an open page in less than 5 seconds compared to 15 in Gnome); however, it was no quicker from a cold boot than Gnome (indicating it's the hardware checks that are dragging the process down). Logging out of Gnome to Openbox was a different story. Once your password is entered and okay is clicked, the ready desktop appears within 2 seconds.
+
+Curiously, CPU usage in Openbox was an almost non-existent 2% on average - with rare spikes above 5% - but RAM stayed at 14% at idle - with spikes to 25% (higher than Gnome). 
+
+The Openbox menu structure is different than Gnome's, and that's both good and bad. The “block” style program listing is there, but the icons and separator lines are gone, and the theme goes to white letters on a black background. For whatever reason, I found this easier to comprehend than the Gnome version, but there is a slight hitch. Since there are no icons in Openbox (just program titles), users have no way of knowing which programs are not yet installed until they click and see the terminal box. 
+
+I'd recommend starting with Gnome until the programs-to-be are installed, and then switch over to Openbox for the faster interface.
+
+At this point, some are undoubtedly itching to ask how oA compares with ArtistX, the other Ubuntu based distro for the artistically inclined.
+
+While ArtistX may be better known (they rate a DistroWatch mention), it's limited to 32-bit, admits to being Ubuntu with a boatload of unmodified repository programs, and stacks the deck with artistic apps to the detriment of other categories (such as deleting the Games entry completely).
+
+Given enough time and bandwidth, just about anybody can take base Ubuntu and pack enough programs to create an ArtistX clone. I seriously doubt many can create an oA knock-off, though, especially since some of the programs are for Windows, made to work in Ubuntu or heavily modified from what you'd normally expect.
+
+I let several friends test oA for just over a month, and most came to the same conclusion – oA is a powerhouse packed with programs you just won't find anywhere else. True, it's a little quirky, and takes some getting used to, but that's part of the fun.
+
+The truth remains that oA is packed to the rafters with programs, many of which are not to be found in any other Ubuntu derivative. Packing a Windows computer with apps like these - and you can count on draining your bank account quickly.
+
+This isn't to say it's all roses with oA. Sure, you can install the OS, and ignore all the programs-to-be, but why? If you want something ready-made, go with plain Ubuntu or the lighter-weight ArtistX. If you want something unique, and yet stable, go with oA. Chances are you'll be the only one in your neighborhood (and possibly state) with this OS.
+
+Okay, the menu design is initially awkward, some menu programs aren't there until you force the issue (never saw that before), and OS documentation outside of the website is nearly non-existent (CIA classified missions get more coverage than oA), but remember you can't get that shiny pearl without shucking quite a few ugly oysters.
+
+Even with all the design peculiarities, I didn't have anybody give up on it (one user even cloned my hard drive thinking there was no way they could get it all for free), and I heard just a couple complaints (mainly about the menu design and slow boot times).
+
+Helping matters greatly is cellstorm's forum participation via the oA website. The forums may have sporadic usage, but if you post a question he responds within a day, and seems more than willing to assist those having problems (making me wonder why oA isn't better known).
+
+Given a few changes, mainly to structure and some procedures, oA could jump up in the pack to become a known entity instead of being the ghost it currently is.
