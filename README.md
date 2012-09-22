@@ -10,7 +10,9 @@
 - 含图片部分请对照 PDF 进行翻译。
 - 翻译的内容请 **直接用相同的 markdown 标记放在相应段落下**，(这样对编辑便利一些) 待校对后再删去英文。
 - markdown 的段落之间要求用空行区分，**段落间如果没有空行，将会显示成同一段落**，请务必注意
+- 翻译校对的编辑过程中，请勿使用 ~~**全文选中 粘贴替换**~~ 这种操作方式
 
 #### FYI:
+
 - git - 简易指南：[http://rogerdudler.github.com/git-guide/index.zh.html](http://rogerdudler.github.com/git-guide/index.zh.html)
 - Markdown 语法说明：[http://wowubuntu.com/markdown/](http://wowubuntu.com/markdown/)
