@@ -1,8 +1,10 @@
+#### 注意事项：
+
 - 请在 [本项目的 wiki 页面](https://github.com/FCCTT/FCM_issue57/wiki) 上登记后再开始翻译
 - 如有疑问，请到 [issues 页面](https://github.com/FCCTT/FCM_issue57/issues) 反馈
-- 翻译完成后，请主动发起 [Pull Requests](https://github.com/FCCTT/FCM_issue57/pulls)
+- 翻译完成后，请主动发起 [Pull Requests](https://github.com/FCCTT/FCM_issue57/pulls) 并修改 wiki 上的进度状态
 
-#### 注意事项：
+#### 关于编辑：
 
 - 对于内容很长的部分，“翻译”处可填写多人名字，参与翻译该章节的协作者协调具体分工。
 - 含图片部分请对照 PDF 进行翻译。
