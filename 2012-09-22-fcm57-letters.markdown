@@ -1,7 +1,102 @@
 ---
 layout: post
-title: "fcm57-letters"
+title: "57期 - 读者来信"
 date: 2012-09-22 13:32
 comments: true
-categories: 
+categories: issue57 letters
 ---
+
+`翻译： 校对： `
+
+<!--authurg is doing-->
+
+Every month we like to publish some of the emails we receive. If you would like to submit a letter for publication, compliment or complaint, please email it to: letters@fullcirclemagazine.org. PLEASE NOTE: some letters may be edited for space. 
+
+<!--我们每个月都会选登一些我们收到的邮件。如果你想要向我们提出你的致意或者是抱怨，请向此处提交你的邮件：letters@fullcirclemagazine.org。请注意：部分邮件可能会被我们保留性的做出一些修改。-->
+
+#### Connecting The Garmin 
+
+To download data from a Datalogger-GPS Wintec WBT 100 under Ubuntu: 
+
+    sudo gpsbabel -t -w -i wbt,erase -f /dev/ttyUSB0 -o gpx -F out.gpx
+
+Remove and replace the batteries from your Garmin, connect the USB cable, and turn the GPS on while connected to your PC. Now type: 
+
+    lsusb
+
+You should see something like: 
+
+    &gt;&gt; Bus 004 Device 002: ID 091e:0003 Garmin International GPSmap (various models)
+
+which means the Garmin has been found. Otherwise disconnect and reconnect. 
+
+To download track data from your GPS map Garmin 60CSx under Ubuntu, type: 
+
+    sudo gpsbabel -t -w -i garmin -f usb: -o gpx -F out.gpx
+
+To upload way points and track data made using the Visugpx site, type: 
+
+     sudo gpsbabel -t -i gpx -f trace.gpx -o garmin -F usb:
+
+Laurent Aldon 
+
+----
+----
+
+
+#### Ctrl + Alt + Del 
+
+I have a question. One of the things I like about Windows is the "Windows button + E" combo that brings up Explorer. Is there a similar thing in Ubuntu? And, while we are at it, is there something similar to the ever popular Ctrl-Alt-Del? 
+
+These are really small beefs, and I can't sufficiently thank anyone who has done anything to further the Linux cause over the years. Every time I use GIMP or OpenOffice, I feel like I am pulling a fast one on the rest of the world. 
+
+Geoff Coleman 
+
+Gord says: (Thanks to Roy in the Ubuntu Linux Yahoo Group) [http://www.ubuntu-unleashed.com/2011/04/complete-list-of-ubuntu-unity-shortcut.html ](http://www.ubuntu-unleashed.com/2011/04/complete-list-of-ubuntu-unity-shortcut.html)
+
+[http://askubuntu.com/questions/28086/what-are-unitys-keyboard-and-mouse-shortcuts](http://askubuntu.com/questions/28086/what-are-unitys-keyboard-and-mouse-shortcuts) 
+
+[http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html](http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html) 
+
+#### Screensavers and Themes 
+
+I no longer have any Windows computers at all. I love Linux and the open source movement in general. I am still only an intermediate user (the terminal annoys me), so I'm not as knowledgeable as some. But, I have noticed a change in 11.10 and the 12.04 alpha of Ubuntu that certain "intermediate" user type things are missing. Screensavers are completely gone, and the startup application menu is empty - with no obvious way of showing the list that used to show in the old releases. I even tried launching it from the terminal with sudo, but it still doesn't make any difference. And the inability to change the colors of Gnome themes really ticks me off! 
+
+Is this just temporary as we switch to GTK3, or something users like me need to get used to? 
+
+Clem 
+
+----
+
+Gord says: this page has instructions: http://www.addictivetips.com/ubuntu-linux-tips/how-to-activate-screen-saver-in-ubuntu-11-10/ 
+
+----
+----
+
+
+#### Movin’ On Up 
+
+As I sit down to write this letter, I cannot help to think that Mr. Shuttleworth had good intentions with Unity and Ubuntu. I sense that the community felt a loss when they realized that Ubuntu was being sacrificed for commercial interests. Perhaps, the idea was to create a tablet or mobile centric distribution? Elimination of the Ubuntu Netbook Edition represented, in my opinion, a leap that the community was not ready to make. 
+
+What options do we have? There are plenty of distributions available - such as Fedora, OpenSuse or Arch. However, instead of any of those, let’s consider another distribution closer to home. Back in May of 2011, Lubuntu was officially recognized as an Ubuntu derivative. I tested Lubuntu and found that it is trim and lightweight, just like Ubuntu used to be. If you intend on switching away from Ubuntu because of this Unity debacle, I suggest giving Lubuntu or another derivative a try before completely leaving us. I think that you will find loyalty and community is still a part of the Canonical values, even if it looks a bit off right now. 
+
+Mark Moore 
+
+----
+
+I have been using Linux for about a year now, and have used only Mint10+KDE and Kubuntu 11.10. (Now Gnome, Ubuntu,) I recently found out that I could add extra desktop environments. From my login screen I can choose from KDE, Ubuntu, Gnome, Gnome Classic, Cairo, and a few others for low graphics mode. 
+
+On to my question. I have been reading all the hate letters about Unity the desktop - "Not a big fan myself," and the complicated methods of changing it back to Gnome. Why don't users download another desktop environment? Are there any cons about doing this? 
+
+I have seen some minor blending of the two Kubuntu &amp; Ubuntu, such as Ubuntu programs and icons, but nothing bad that I’ve seen. 
+
+Rob 
+
+----
+----
+
+#### Nvidia Woes 
+
+I love Linux, but the one thing that prevents me from using it is my Nvidia card. It comes with Optimus, and my laptop doesn't have a switch to turn Optimus off. I tried Bumblebee and Ironhide (or whatever it's called), and neither worked. Nvidia needs to step it up and help out Linux. 
+
+Ben
