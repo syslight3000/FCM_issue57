@@ -65,4 +65,3 @@ https://wiki.ubuntu.com/QATeam/TasksPrecise
 The QA Team for Ubuntu has a weekly gathering. Feel free to attend our weekly meeting and ask questions so that you get to know the team and what each one of us is doing. It takes place every Wednesday at 17:00 UTC in #ubuntu-meeting on freenode. We are thrilled to see new people show up and contribute. The agenda for the meetings, and details and logs of past meetings, are available here: https://wiki.ubuntu.com/QATeam/Meetings
 
 
-test
