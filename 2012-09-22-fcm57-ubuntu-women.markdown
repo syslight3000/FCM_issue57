@@ -85,7 +85,7 @@ EK：对想参与到Ubuntu和开源社区的人有什么建议吗？
 
 GG: I think open-source is an unstoppable force that is driven by a huge worldwide community. I'd say the first step is to figure out what you want to do with your free time, then choose a project that you'd like to contribute to and see if they are in need of any of your skills; odds are they are. If you are a developer but do not want to write code in your free time, you might enjoy reviewing code or beta-testing a product to find problems, or triaging some bugs. Maybe you are good at languages and want to contribute by translating the software.
 
-GG：我认为开源是由社区推动的一股不可逆转的力量。我想说，第一步，你需要知道空闲时间里面你想干什么，然后参与到一个你想为之贡献的项目并看项目中是否需要你的其他技能；**odds are they are**. 如果你本来就是一名开发人员，不想在空闲时间写代码，你可能会喜欢审阅代码或者beta测试一个产品来发现问题，或者跟踪bug。可能你擅长语言并愿意翻译软件来贡献。
+GG：我认为开源是由社区推动的一股不可逆转的力量。我想说，第一步，你需要知道空闲时间里面你想干什么，然后参与到一个你想为之贡献的项目并看项目中是否需要你的其他技能； ***odds are they are***. 如果你本来就是一名开发人员，不想在空闲时间写代码，你可能会喜欢审阅代码或者beta测试一个产品来发现问题，或者跟踪bug。可能你擅长语言并愿意翻译软件来贡献。
 
 Or if you enjoy breaking software, and would like to do quality assurance and testing of a particular product, and you are prepared to join a very dynamic and challenging environment, I'd like to see an email from you on our ubuntu-qa@lists.ubuntu.com list (it's open to anyone: https://lists.ubuntu.com/mailman/listinfo/ubuntu-qa ).
 
