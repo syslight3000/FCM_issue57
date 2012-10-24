@@ -12,11 +12,20 @@ Gema Gomez-Solano
 
 Elizabeth Krumbach: Can you tell us a little about yourself?
 
+Elizabeth Krumbach: 可以先介绍一下自己吗？
+
 Gema Gomez-Solano (above): I love good software and computers. When I was at high school, and I watched the film Sneakers, I decided to become a Computer Engineer. I admired those computer wizards who could do almost anything with a keyboard. I really wanted to be part of a group that could do cool things with technology, no matter how complicated.
+
+
+Gema Gomez-Solano (above)：我喜欢优秀的软件和电脑。中学的时候，我看了《通天神偷》之后，我就决定，长大了要当一个电脑工程师。当时我非常佩服那些计算机高手，他们可以用键盘做各种事情。我当时非常希望能成为他们中的一员，用技术实现一些很酷的东西，不管这个东西有多复杂。
 
 I studied Computer Engineering in Barcelona, Spain; a Master equivalent degree at the Catalonia Polytechnic University. After finishing university, I was hired by a security company in Barcelona to do security audits and assessments.
 
+我在西班牙巴塞罗那的加泰罗尼亚理工大学读计算机工程专业，活动基本上等同于硕士的学位。毕业后，我受聘于巴塞罗那一家安全公司，工作主要是安全审计和评估。
+
 In 2004, given my security background, I was offered a role in London as a Test Engineer at Symbian within the security team. This was my first time working at an English company, and in an international environment. We had teams in the UK and India, and later in China. Testing an operating system was one of the most complex and enlightening experiences of my career. I grew as a tester and as a QA engineer during the first years there. The security team moved to Cambridge and I decided to stay in London doing integration testing within the kernel team.
+
+2004年，因为有计算机安全领域的工作经验，我在塞班公司的安全小组找到一份测试工程师的工作，地点是在伦敦。
 
 Then, in 2007, Symbian decided they wanted to build a strong System Test team, and offered me the Technology Architect position for that team. We built a technically strong test team who changed the quality of the OS visibly and for good. It felt great to see that project develop after all the battles that we had to fight to make it happen.
 
