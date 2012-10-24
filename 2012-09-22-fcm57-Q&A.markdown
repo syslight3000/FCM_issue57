@@ -1,0 +1,67 @@
+---
+layout: post
+title: "53期 - Ubuntu 女士"
+date: 2012-09-22 13:33
+comments: true
+categories: issue57 ubuntu-women
+---
+
+Written by Elizabeth Krumbach
+
+Gema Gomez-Solano
+
+Elizabeth Krumbach: Can you tell us a little about yourself?
+
+Elizabeth Krumbach: 可以先介绍一下自己吗？
+
+Gema Gomez-Solano (above): I love good software and computers. When I was at high school, and I watched the film Sneakers, I decided to become a Computer Engineer. I admired those computer wizards who could do almost anything with a keyboard. I really wanted to be part of a group that could do cool things with technology, no matter how complicated.
+
+
+Gema Gomez-Solano (above)：我喜欢优秀的软件和电脑。中学的时候，我看了《通天神偷》之后，我就决定，长大了要当一个电脑工程师。当时我非常佩服那些计算机高手，他们可以用键盘做各种事情。我当时非常希望能成为他们中的一员，用技术实现一些很酷的东西，不管这个东西有多复杂。
+
+I studied Computer Engineering in Barcelona, Spain; a Master equivalent degree at the Catalonia Polytechnic University. After finishing university, I was hired by a security company in Barcelona to do security audits and assessments.
+
+我在西班牙巴塞罗那的加泰罗尼亚理工大学读计算机工程专业，活动基本上等同于硕士的学位。毕业后，我受聘于巴塞罗那一家安全公司，工作主要是安全审计和评估。
+
+In 2004, given my security background, I was offered a role in London as a Test Engineer at Symbian within the security team. This was my first time working at an English company, and in an international environment. We had teams in the UK and India, and later in China. Testing an operating system was one of the most complex and enlightening experiences of my career. I grew as a tester and as a QA engineer during the first years there. The security team moved to Cambridge and I decided to stay in London doing integration testing within the kernel team.
+
+2004年，因为有计算机安全领域的工作经验，我在塞班公司的安全小组找到一份测试工程师的工作，地点是在伦敦。
+
+Then, in 2007, Symbian decided they wanted to build a strong System Test team, and offered me the Technology Architect position for that team. We built a technically strong test team who changed the quality of the OS visibly and for good. It felt great to see that project develop after all the battles that we had to fight to make it happen.
+
+Then Nokia took over Symbian, and announced it was going to become open-source. After spending 9 months helping the team to integrate in the new organisation, I decided to take some time off to rethink my career to find the next challenge. I had seen the team grow and establish itself as a smoothly running testing team, so my job there felt done and I was eager to find a new project that I could help develop and build.
+
+As my next challenge I took up an opportunity to join VMware in London. I did API testing for almost a year with them but it didn't really feel like the challenge I had been seeking. So I kept trying to find what I was looking for, and that's how I came across Canonical and the Ubuntu project. It was an operating system; it was in need of testing if it was to become the predominant OS. And, most importantly, it was a chance to collaborate with a great community from around the globe. This opportunity got my attention instantly, and, when I was offered the QA Engineer position, I didn't hesitate.
+
+Five months and one UDS down the line, it still feels good and lots of things are starting to happen within the Canonical Platform QA team and within the community in terms of QA. I enjoy seeing how my work has a direct impact on a system used by millions worldwide. I would like to see Ubuntu become the operating system everyone uses and that comes with every computer that is sold. Most importantly, I personally would like to see the QA work that we are doing for Ubuntu become a de facto standard in terms of quality assurance and good testing practices.
+	
+EK: How and when did you first get involved with open-source?
+
+GG: The first time I thought about open-source as a way of making software was when I was told Symbian was becoming open-source. We had to think about how to make our code available to everyone, as well as keeping the continuous integration and testing of the code going. That was the first time I really thought about the concept of open-source, and realised how powerful the idea is.
+
+My partner has been a developer of an open-source project, Dragonfly BSD, for some time now. I have seen him work on that project, and interact with its community, for years. He tried to convince me to do testing for them - but I was so busy with my day-to-day work that I never had enough quality time to dedicate to that.
+
+So my first real taste of open-source, and being part of a community, has been with Canonical and the Ubuntu Project. I am learning to work with the community and to bounce ideas back and forth until they become work items and get implemented. Initially, the QA list felt somewhat lifeless, and the community was a bit stuck on what it was doing. Not much collaboration was going on so we split some of the tasks our team was doing this cycle, and made them available to the community. We've raised the awareness of testing, and plenty of community members have started to collaborate with us, and a lot of discussions are going on at the moment regarding the future of QA in Ubuntu. All geared towards taking the quality of Ubuntu to the next level.
+
+I have also started talking to the Mozilla QA team regarding a test case management tool (Case Conductor) they are creating that we would like to use for Ubuntu as well. They are keen on collaborating, and would like to gather requirements from us so that the tool is fit for purpose for Ubuntu, too. We will soon be involved in beta-testing and other collaboration with the Mozilla team on this tool. So inter-community collaboration is something I am exploring at the moment.
+
+EK: What is your role within the Ubuntu Project?
+
+GG: I started working for the Platform QA team at Canonical back in August, and I have been watching the project during the final stages of Oneiric Ocelot as well as learning more about Linux and the community.
+
+I wrote a high level strategy of what I think needs to happen in the coming 2 years for our quality levels to rise significantly. The plan was well received at the management team, and we got a green light to start implementing it. I have since moved to be the technical lead of the Platform QA team. We are currently working on putting the right tools in place so that developers can act on the important defects as soon as they are found. The Daily ISO testing is already following this principle, and its quality is improving noticeably as we speak. We are keeping track of the defects we find as part of our testing efforts, and of the defects we didn't find but are found later in the development cycle, so that we can improve the testing of future releases. Our overall aim is to build a solid automated testing suite as soon as we have the basics in place.
+
+We changed the format of the meeting to make it more QA focussed, splitting it from the Bug Control meeting. Now both groups have different times to meet and discuss their issues and progress, and we have a set of tasks that community members are contributing to, with the aim of improving the quality of Ubuntu. I am driving and coordinating this effort at the moment, but this is not going to be my focus going forward since there will be a QA Community Coordinator with whom my team will collaborate closely and I will be just one more community contributor. The QA Platform team will be helping shape the testing effort and trying to make every little effort a worthwhile contribution to the whole. Historically, there has been little leadership in the QA front, and we are trying to bring good practices from the industry to the open-source community to improve the situation.
+
+EK: Do you have any suggestions for others who are looking to get involved with Ubuntu and open-source in general?
+
+GG: I think open-source is an unstoppable force that is driven by a huge worldwide community. I'd say the first step is to figure out what you want to do with your free time, then choose a project that you'd like to contribute to and see if they are in need of any of your skills; odds are they are. If you are a developer but do not want to write code in your free time, you might enjoy reviewing code or beta-testing a product to find problems, or triaging some bugs. Maybe you are good at languages and want to contribute by translating the software.
+
+Or if you enjoy breaking software, and would like to do quality assurance and testing of a particular product, and you are prepared to join a very dynamic and challenging environment, I'd like to see an email from you on our ubuntu-qa@lists.ubuntu.com list (it's open to anyone: https://lists.ubuntu.com/mailman/listinfo/ubuntu-qa ).
+
+We are in the process of gathering as much help as we can get. The tasks that are being worked on at the moment at the community level for Precise are available on the wiki:
+https://wiki.ubuntu.com/QATeam/TasksPrecise
+
+The QA Team for Ubuntu has a weekly gathering. Feel free to attend our weekly meeting and ask questions so that you get to know the team and what each one of us is doing. It takes place every Wednesday at 17:00 UTC in #ubuntu-meeting on freenode. We are thrilled to see new people show up and contribute. The agenda for the meetings, and details and logs of past meetings, are available here: https://wiki.ubuntu.com/QATeam/Meetings
+
+test
