@@ -5,98 +5,194 @@ date: 2012-09-22 13:32
 comments: true
 categories: issue57 letters
 ---
+ 
+#读者来信
 
-`翻译： 校对： `
+翻译：bocai 
+
+校对： 
 
 <!--authurg is doing-->
 
 Every month we like to publish some of the emails we receive. If you would like to submit a letter for publication, compliment or complaint, please email it to: letters@fullcirclemagazine.org. PLEASE NOTE: some letters may be edited for space. 
 
-<!--我们每个月都会选登一些我们收到的邮件。如果你想要向我们提出你的致意或者是抱怨，请向此处提交你的邮件：letters@fullcirclemagazine.org。请注意：部分邮件可能会被我们保留性的做出一些修改。-->
+我们每个月都会选登一些我们收到的邮件。如果你想要向我们提出你的致意或者是抱怨，请向此处提交你的邮件：letters@fullcirclemagazine.org。请注意：部分邮件可能会被我们保留性的做出一些修改。
 
 #### Connecting The Garmin 
 
+#### 链接Garmin 
+
 To download data from a Datalogger-GPS Wintec WBT 100 under Ubuntu: 
+
+在Ubuntu下，从 Datalogger-GPS Wintec WBT 100 下载数据：
 
     sudo gpsbabel -t -w -i wbt,erase -f /dev/ttyUSB0 -o gpx -F out.gpx
 
 Remove and replace the batteries from your Garmin, connect the USB cable, and turn the GPS on while connected to your PC. Now type: 
 
-    lsusb
+从你的Garmin上取下并且换上电池，连上USB线，然后打开GPS连接你的PC机。此时，输入：
 
+    lsusb
+    
+    lsusb
+    
 You should see something like: 
+
+你应该会看到类似于下面的信息：
+
+    &gt;&gt; Bus 004 Device 002: ID 091e:0003 Garmin International GPSmap (various models)
 
     &gt;&gt; Bus 004 Device 002: ID 091e:0003 Garmin International GPSmap (various models)
 
 which means the Garmin has been found. Otherwise disconnect and reconnect. 
 
+这就意味着Garmin已经被PC机发现了。否则说明没有连上，需要重连。
+
 To download track data from your GPS map Garmin 60CSx under Ubuntu, type: 
 
+在Ubuntu下，从你的GPS map Garmin 60CSx上下载跟踪数据，可以输入：
+
+    sudo gpsbabel -t -w -i garmin -f usb: -o gpx -F out.gpx
+    
     sudo gpsbabel -t -w -i garmin -f usb: -o gpx -F out.gpx
 
 To upload way points and track data made using the Visugpx site, type: 
 
+加载路线地点和跟踪数据可以通过站点Visugpx，请输入：
+
+     sudo gpsbabel -t -i gpx -f trace.gpx -o garmin -F usb:
+     
      sudo gpsbabel -t -i gpx -f trace.gpx -o garmin -F usb:
 
 Laurent Aldon 
 
+Laurent Aldon
+
 ----
 ----
+
+----
+----
+
 
 
 #### Ctrl + Alt + Del 
 
+#### Ctrl + Alt + Del 组合键
+
 I have a question. One of the things I like about Windows is the "Windows button + E" combo that brings up Explorer. Is there a similar thing in Ubuntu? And, while we are at it, is there something similar to the ever popular Ctrl-Alt-Del? 
+
+我有一个疑问。我喜欢Windows的东西之一就是 ”Windows + E“ 组合键可以打开资源管理器。在Ubuntu中是否也有类似的按键呢？当我们做到了这个，那么是否也有类似于曾经流行的Ctrl-Alt-Del组合键呢？
 
 These are really small beefs, and I can't sufficiently thank anyone who has done anything to further the Linux cause over the years. Every time I use GIMP or OpenOffice, I feel like I am pulling a fast one on the rest of the world. 
 
+这些真的只是一些小牢骚，并且我没法感谢每个这么多年来推动Linux发展的人。每当我使用GIMP或者OpenOffice时，我感觉我在用世界上最快的软件。
+
 Geoff Coleman 
 
+Geoff Coleman 
+
+
 Gord says: (Thanks to Roy in the Ubuntu Linux Yahoo Group) [http://www.ubuntu-unleashed.com/2011/04/complete-list-of-ubuntu-unity-shortcut.html ](http://www.ubuntu-unleashed.com/2011/04/complete-list-of-ubuntu-unity-shortcut.html)
+
+Gord 表示：（感谢在Ubuntu Linux Yahoo Group 的 Roy）[http://www.ubuntu-unleashed.com/2011/04/complete-list-of-ubuntu-unity-shortcut.html ](http://www.ubuntu-unleashed.com/2011/04/complete-list-of-ubuntu-unity-shortcut.html)
+
+
+[http://askubuntu.com/questions/28086/what-are-unitys-keyboard-and-mouse-shortcuts](http://askubuntu.com/questions/28086/what-are-unitys-keyboard-and-mouse-shortcuts) 
 
 [http://askubuntu.com/questions/28086/what-are-unitys-keyboard-and-mouse-shortcuts](http://askubuntu.com/questions/28086/what-are-unitys-keyboard-and-mouse-shortcuts) 
 
 [http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html](http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html) 
 
+[http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html](http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html) 
+
+
 #### Screensavers and Themes 
+
+#### 屏幕保护和主题
 
 I no longer have any Windows computers at all. I love Linux and the open source movement in general. I am still only an intermediate user (the terminal annoys me), so I'm not as knowledgeable as some. But, I have noticed a change in 11.10 and the 12.04 alpha of Ubuntu that certain "intermediate" user type things are missing. Screensavers are completely gone, and the startup application menu is empty - with no obvious way of showing the list that used to show in the old releases. I even tried launching it from the terminal with sudo, but it still doesn't make any difference. And the inability to change the colors of Gnome themes really ticks me off! 
 
+我不再用Windows了。通常，我喜欢的是Linux和开源活动。我仍然还只是一个初级用户（终端困扰着我），所以我不像一些人（高手）那样知识渊博。但我已经注意到在Ubuntu 11.10和12.04 alpha版本中的一个改变，就是某些适合“初级”用户的功能正在逐渐消失。屏幕保护程序完全消失，而且启动菜单也是空的 - 没有在明显的地方显示往常在旧版本中显示的列表。我曾试着在终端里用sudo开启它，不过它依然没有任何改变。还有就是Gnome主题不能改变让我很生气。
+
 Is this just temporary as we switch to GTK3, or something users like me need to get used to? 
 
+这是否要我们暂时转换到GTK3主题，或者有些用户跟我一样需要用旧的版本？
+
 Clem 
+
+Clem
+
+
+----
 
 ----
 
 Gord says: this page has instructions: http://www.addictivetips.com/ubuntu-linux-tips/how-to-activate-screen-saver-in-ubuntu-11-10/ 
 
+Gord 回应：在这个页面有说明：http://www.addictivetips.com/ubuntu-linux-tips/how-to-activate-screen-saver-in-ubuntu-11-10/ 
+
+----
+----
+
 ----
 ----
 
 
-#### Movin’ On Up 
+#### Movin’ On Up
+ 
+#### 继续前进
 
 As I sit down to write this letter, I cannot help to think that Mr. Shuttleworth had good intentions with Unity and Ubuntu. I sense that the community felt a loss when they realized that Ubuntu was being sacrificed for commercial interests. Perhaps, the idea was to create a tablet or mobile centric distribution? Elimination of the Ubuntu Netbook Edition represented, in my opinion, a leap that the community was not ready to make. 
 
+当我坐下要写这封信的时候，我想不到Mr. Shuttleworth在Ubuntu中使用Unity的用意是什么。当社区意识到Ubuntu因为商业利益而牺牲时，我觉得他们会感到这是一种损失。或许，这个想法是为了创建一个写字版或者移动中心发行版？以移除Ubuntu Netbook Edition为代表，在我看来，社区还没有为这个跃进做好准备。
+
 What options do we have? There are plenty of distributions available - such as Fedora, OpenSuse or Arch. However, instead of any of those, let’s consider another distribution closer to home. Back in May of 2011, Lubuntu was officially recognized as an Ubuntu derivative. I tested Lubuntu and found that it is trim and lightweight, just like Ubuntu used to be. If you intend on switching away from Ubuntu because of this Unity debacle, I suggest giving Lubuntu or another derivative a try before completely leaving us. I think that you will find loyalty and community is still a part of the Canonical values, even if it looks a bit off right now. 
+
+我们有什么选择呢？有很多发现版可以使用 —— 比如Fedora,OpenSuse和Arch。然而，并非这些其中任何一个让我们考虑其它相近的发现版。2011年五月，Lubuntu作为Ubuntu的一个衍生版正式发布。我测试Lubuntu然后发现它如同Ubuntu当初那样整洁而且轻量级。由于Unity的崩溃你打算从Ubuntu改用其它发现版的话，我建议在完全离开它之前你不妨试一下Lubuntu或者其它的衍生版。我想你将发现你会忠实用它，并且社区依旧是规范的，尽管她现在不怎么起眼。
 
 Mark Moore 
 
+Mark Moore
+
 ----
+
+----
+
 
 I have been using Linux for about a year now, and have used only Mint10+KDE and Kubuntu 11.10. (Now Gnome, Ubuntu,) I recently found out that I could add extra desktop environments. From my login screen I can choose from KDE, Ubuntu, Gnome, Gnome Classic, Cairo, and a few others for low graphics mode. 
 
+目前我已经使用Linux大概一年了，我只用过Mint10+KDE和Kubuntu 11.10。（目前的 Gnome, Ubuntu,）我最近发现我不能添加别的桌面环境。在我的登录界面不能从KDE, Ubuntu, Gnome, Gnome Classic, Cairo以及为少数人提供的低图形显示模式当中进行选择登录。
+
 On to my question. I have been reading all the hate letters about Unity the desktop - "Not a big fan myself," and the complicated methods of changing it back to Gnome. Why don't users download another desktop environment? Are there any cons about doing this? 
+
+我有个疑问。我已经读完了所有令人讨厌的关于Unity桌面的信件 —— “我一点不喜欢这样”而且改回Gnome桌面的方法复杂。为什么用户不下载别的桌面环境呢？是他们不喜欢这样做吗？
 
 I have seen some minor blending of the two Kubuntu &amp; Ubuntu, such as Ubuntu programs and icons, but nothing bad that I’ve seen. 
 
+我见过一些初学者把Kubuntu &amp;Ubuntu这两个搞混了，比如Ubuntu程序和图标，我见过的没有比这更糟糕的 。
+
 Rob 
+
+Rob 
+
 
 ----
 ----
+
+----
+----
+
 
 #### Nvidia Woes 
 
+#### Nvidia显卡的悲哀
+
 I love Linux, but the one thing that prevents me from using it is my Nvidia card. It comes with Optimus, and my laptop doesn't have a switch to turn Optimus off. I tried Bumblebee and Ironhide (or whatever it's called), and neither worked. Nvidia needs to step it up and help out Linux. 
 
+我爱Linux，但有样东西妨碍我使用它，那就是我的Nvidia显卡。它使用Optimus（显示切换技术），而我的笔记本电脑没有开关关掉它。我试过用Bumblebee和Ironhide（抑或不管怎么弄）两个都无法工作。Nvidia需要采取行动帮助Linux解决这个问题。
+
 Ben
+
+Ben
+
