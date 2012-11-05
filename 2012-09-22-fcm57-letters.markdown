@@ -84,7 +84,7 @@ Gord 回应：（感谢在Ubuntu Linux Yahoo Group 的 Roy）[http://www.ubuntu-
 
 [http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html](http://www.techdrivein.com/2011/04/31-useful-ubuntu-1104-unity.html) 
 
-
+----
 
 #### Screensavers and Themes 
 
@@ -100,7 +100,6 @@ Is this just temporary as we switch to GTK3, or something users like me need to 
 
 Clem
 
-----
 
 Gord says: this page has instructions: http://www.addictivetips.com/ubuntu-linux-tips/how-to-activate-screen-saver-in-ubuntu-11-10/ 
 
