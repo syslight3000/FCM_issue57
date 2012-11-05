@@ -36,7 +36,7 @@ You should see something like:
 
 你应该会看到类似于下面的信息：
 
-    &gt;&gt; Bus 004 Device 002: ID 091e:0003 Garmin International GPSmap (various models)
+    >> Bus 004 Device 002: ID 091e:0003 Garmin International GPSmap (various models)
 
 which means the Garmin has been found. Otherwise disconnect and reconnect. 
 
@@ -57,8 +57,6 @@ To upload way points and track data made using the Visugpx site, type:
 Laurent Aldon
 
 ----
-----
-
 
 
 #### Ctrl + Alt + Del 
@@ -98,7 +96,8 @@ I no longer have any Windows computers at all. I love Linux and the open source 
 
 Is this just temporary as we switch to GTK3, or something users like me need to get used to? 
 
-这是因为我们要切换成GTK3而临时过渡，还是说我得慢慢习惯？
+这是因为我们要切换成GTK3而临时过渡，还是说我得慢慢习惯？
+
 Clem
 
 ----
@@ -107,7 +106,6 @@ Gord says: this page has instructions: http://www.addictivetips.com/ubuntu-linux
 
 Gord 回应：详见此页面说明：http://www.addictivetips.com/ubuntu-linux-tips/how-to-activate-screen-saver-in-ubuntu-11-10/ 
 
-----
 ----
 
 
@@ -140,7 +138,8 @@ I have seen some minor blending of the two Kubuntu & Ubuntu, such as Ubuntu prog
 
 我见过一些初学者把Kubuntu和Ubuntu两个搞混了，比如Ubuntu的程序和图标，我也没见过比这更糟的事情了。
 
-Rob 
+Rob 
+
 ----
 
 
