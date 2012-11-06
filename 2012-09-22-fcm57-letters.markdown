@@ -69,7 +69,7 @@ I have a question. One of the things I like about Windows is the "Windows button
 
 These are really small beefs, and I can't sufficiently thank anyone who has done anything to further the Linux cause over the years. Every time I use GIMP or OpenOffice, I feel like I am pulling a fast one on the rest of the world. /*here, question!*/
 
-这只是一些小牢骚啦，我感激这么多年来推动Linux发展的所有人。每当我使用GIMP或者OpenOffice时，我都觉的我在用世界上最快的软件。
+这只是一些小牢骚啦，我感激这么多年来推动Linux发展的所有人。每当使用GIMP或者OpenOffice时，我都觉得我拉动着世界上其他地区的开源发展。
 
 
 Geoff Coleman 
@@ -88,11 +88,11 @@ Gord 回应：（感谢在Ubuntu Linux Yahoo Group 的 Roy）[http://www.ubuntu-
 
 #### Screensavers and Themes 
 
-#### 屏保与主题  /* Here, question!  internediate "中级"*/
+#### 屏保与主题  
 
 I no longer have any Windows computers at all. I love Linux and the open source movement in general. I am still only an intermediate user (the terminal annoys me), so I'm not as knowledgeable as some. But, I have noticed a change in 11.10 and the 12.04 alpha of Ubuntu that certain "intermediate" user type things are missing. Screensavers are completely gone, and the startup application menu is empty - with no obvious way of showing the list that used to show in the old releases. I even tried launching it from the terminal with sudo, but it still doesn't make any difference. And the inability to change the colors of Gnome themes really ticks me off! 
 
-我早都不再使用Windows了。总之，我热爱Linux和开源活动。我依然然只是一个初级用户（终端困扰着我），所以我不像那些高手们知识渊博。但我已经注意到在Ubuntu 11.10和12.04 alpha版本中的一个改变，就是某些适合“初级”用户的功能正在逐渐消失。屏幕保护程序完全消失，而且启动菜单也是空的——没有在显眼的地方显示往常在旧版本中显示的列表。我曾试着在终端里用sudo启动它，不过依然没用。还有，不能改变Gnome主题让我觉得很不爽呀。
+我早都不再使用Windows了。总之，我热爱Linux和开源活动。我依然然只是一个中级用户（终端困扰着我），所以我不像那些高手们知识渊博。但我已经注意到在Ubuntu 11.10和12.04 alpha版本中的一个改变，就是某些适合“中级”用户的功能正在逐渐消失。屏幕保护程序完全消失，而且启动菜单也是空的——没有在显眼的地方显示往常在旧版本中显示的列表。我曾试着在终端里用sudo启动它，不过依然没用。还有，不能改变Gnome主题让我觉得很不爽呀。
 
 Is this just temporary as we switch to GTK3, or something users like me need to get used to? 
 
@@ -118,7 +118,7 @@ As I sit down to write this letter, I cannot help to think that Mr. Shuttleworth
 
 What options do we have? There are plenty of distributions available - such as Fedora, OpenSuse or Arch. However, instead of any of those, let’s consider another distribution closer to home. Back in May of 2011, Lubuntu was officially recognized as an Ubuntu derivative. I tested Lubuntu and found that it is trim and lightweight, just like Ubuntu used to be. If you intend on switching away from Ubuntu because of this Unity debacle, I suggest giving Lubuntu or another derivative a try before completely leaving us. I think that you will find loyalty and community is still a part of the Canonical values, even if it looks a bit off right now. 
 
-我们有什么选择呢？有很多发行版供大家使用 —— 比如Fedora，OpenSuse以及Arch。然而，除了这些，让我们再考虑一下其他和Ubuntu有家族关系的发行版吧。回溯到2011年5月，Lubuntu作为Ubuntu的一个衍生版正式发布。我试用了Lubuntu，发现它如同Ubuntu当初那样整洁且轻量级。如果由于Unity的崩溃让你打算弃用Ubuntu的话，我建议在完全放弃它之前不妨试一下Lubuntu或其它的衍生版。我想你将发现你依然会忠实于它，并且社区依旧是Canonical重视的一部分，尽管它现在不怎么起眼。
+我们有什么选择呢？有很多发行版供大家使用 —— 比如Fedora，OpenSuse以及Arch。然而，除了这些，让我们再考虑一下其他和Ubuntu有家族关系的发行版吧。回溯到2011年5月，Lubuntu作为Ubuntu的一个衍生版正式发布。我试用了Lubuntu，发现它如同Ubuntu当初那样整洁且轻量级。如果由于Unity的崩溃让你打算弃用Ubuntu的话，我建议在完全放弃它之前不妨试一下Lubuntu或其它的衍生版。我想你将发现你依然会忠实于它，并且社区依旧是Canonical很有价值的一部分，尽管它现在不怎么起眼。
 
 Mark Moore
 
