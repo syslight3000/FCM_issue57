@@ -6,20 +6,41 @@ comments: true
 categories: issue57 my-story
 ---
 
+#我的故事
+
 Written by Charles McColm
+
+作者：Charles McColm 翻译：陈鹤心
 
 My tech journey began like many of my generation - on a Commodore 64. August 1983, I became involved with BUG, the Barrie Users’ Group, a group then dedicated to hacking Commodore hardware and software. BUG turned me on to Bulletin Board Systems (BBS). It was hard not to become enchanted by BBS technology: multi-line door games, informative forums, and the System Operator (sysop) breaking in to chat. For several years, I ran my own BBS, at first under MS DOS, then IBM’s OS/2 Warp operating system. Which brings up a funny story. 
 
+我的技术之旅是跟许多我这一代的人一样出发的——在一台Commodore 64电脑上。1983年8月，我加入了一个名为BUG的组织（Barrie 用户兴趣小组），这是一个专注于黑客Commodore硬件与软件的兴趣小组。BUG使我对电子布告栏（BBS）产生了兴趣。不对BBS着魔是很困难的：多线程的游戏，信息丰富的论坛，还可以时不时与系统操作员聊天。几年后，我开始运作我自己的BBS，一开始在MS DOS下运作，后来在IBM的OS/2 Warp操作系统下运作。这段经历带来了一个有趣的故事。
+
 Late 1995, I went to Comdex in Toronto, with evaluating both Windows 95 and OS/2 in mind. I visited both booths, and was stunned by how rude the Microsofties were. I patiently waited at their booth to test a machine only to be summarily booted off. The IBM camp was busy too, but they were much more pleasant, and not only showed me OS/2 but connected me with a sysop running OS/2. When I went home, I was fired up about OS/2. I went to a local computer store where it so happened that another local sysop worked. When I went to buy OS/2, he vehemently warned me against buying OS/2 saying I should buy Windows 95 when it came out. Long story short: my BBS was up and running the same afternoon, and he never did get his working under Windows 95.
+
+1995年后期，我带着评估Window 95和OS/2的想法去多伦多参观了一个计算机分销商展览。这两个摊位我都去了，不过我对微软的无礼印象尤其深刻。我耐心地在他们的摊位上测试一台机器，最终它被随便地总结为“死机”。IBM的摊位同样很忙，但是他们相比之下让人愉快得多，他们不仅为我展示了OS/2操作系统，还让我与一个运转着OS/2的系统操作员连线交流。当我到家，我迫不及待地想置办一套OS/2。我去了本地的一家电脑营销店，巧的是，本地的另一个系统操作员正好在这家店工作。当我打算去买OS/2时，他拼命地警告以阻止我买OS/2，他说我应该等Windows 95 出来时买一套Windows 95 。长话短说：当天下午我的BBS就开始了成功运转，但它绝不是在Windows 95下运转的。
 
 It was shortly after I started running OS/2 that my youngest brother came home from University with a Slackware Linux CD. It was interesting, but for some reason that eludes me, I ended up subscribing to the Walnut Creek FreeBSD CD-ROMs. In a Richard Stallman-like fashion, it was a printer driver that turned me back to Linux.
 
+我开始使用OS/2不久后，我最小的弟弟就带着一张Slackware Linux的光盘从大学回到了家。有趣并且出于一些原因困扰着我的是，我停止了对Walnut Creek FreeBSD CD-ROM的预定。受Richard Stallman潮流的影响，一个打印机驱动程序就让我回归Linux的怀抱。
+
 I also hooked up with a small group of individuals looking to create a Linux desktop, WCLP, for 486DX computers with 16 MB of RAM and a 500 MB hard drive. That project connected me with another not-for-profit project, The Working Centre’s Computer Recycling Project. For the past six years, I’ve been blessed to be the manager of that project. In the mid-2000’s, the Linux distribution we started was surpassed by other projects with similar goals. When it came time to decide on a new Linux distribution for our Linux builds, I went with the hot new thing: Ubuntu 4.10. Since that time we haven’t looked back. 
+
+我还参与了一个由一群人组成的小型兴趣小组，来进行Linux桌面版的研发，WCLP，为486DX系列CPU的电脑，有16MB的RAM和500MB的硬盘空间。  该工程又令我与另一个无收益工程组联系了起来。上帝保佑，在过去的6年里，我一直是该工程组的经理。在21世纪00年代中期，我们研发的Linux发行版本被其他工程组以类似的目标超越了。当需要为我们的Linux设备选择一个合适的Linux发行版时，Ubuntu4.10出现了。自那以后我们再也没有回头看过。
 
 Our project is also a part of the Microsoft Registered Refurbisher program. The Working Centre has for many years provided computer basics training and Microsoft Office training, so it’s helpful that we also offer Microsoft Windows and Microsoft Office on certain machines. Microsoft has been very good to us and kept the cost of licenses low enough that we can pretty much offer them on par with our Linux systems.
 
+我们的工程同样是Microsoft Registered Refurbisher program  的一部分。该工作中心多年以来一直提供计算机基础培训和微软Office办公软件培训，所以当我们在机器上使用微软windows操作系统和微软office办公软件时它还是帮了很大的忙。微软很厚道地一直保持许可证费用的低廉，这使我们大部分人都能在我们的Linux操作系统上承担起微软windows操作系统和微软office办公软件。
+
 What surprises some is that we sell almost as many Linux machines as we do Windows machines. I attribute this to a few factors: even with unattended installations, it’s still often easier for us to install Linux; Linux is easier for us to support because we don’t have to deal with malware as much; Linux tends to work better with the variety of hardware we have without us having to download drivers separately (printers for example).
+
+使一些人意外的是，我们卖出去的Linux机器几乎与Windows机器一样多。我将此现象归功于这几个要素：即使是无人看管的安装步骤，对我们大多数人来说安装Linux也简单的多；使用Linux还很省心，因为我们不用再担心众多恶意软件；用Linux似乎更方便，因为有了多种多样的硬件，我们不用再逐个下载那些硬件驱动（比如打印机驱动）。
 
 Of course not everything is perfect, so, when someone considers buying an Ubuntu Linux system, we sit them down in front of a machine, give them a brief overview about using Ubuntu Software Centre, Firefox and LibreOffice, and let them decide if they feel comfortable enough to try Ubuntu. 
 
+当然，没有一件事是完美的，所以，当某些人考虑买一套Ubuntu Linux操作系统时，我们会让他们坐在一台电脑前，给他们一点关于Ubuntu软件中心、Firefox浏览器和LibreOffice办公软件的简短介绍，然后让他们自己来感受用Ubuntu是否体验良好来决定要不要买Ubuntu。
+
 Most people are comfortable when they learn they can do many of the same jobs in Ubuntu Linux. Many of the people we work with haven’t tried Linux before, and I’m often surprised to learn they’re still running Linux months later. I suppose I shouldn’t be surprised - all Linux really takes is the willingness to learn and play.
+
+大部分人在发现他们能用Ubuntu Linux做（windows下）同样能实现的事时，都感觉很良好。许多与我们打交道的人从前并没有使用多Linux，并且我很意外的事，（尝试使用Linux后）他们在几个月后还能坚持使用它。我想当全民Linux的这一天到来时，我是不会惊讶的。
+
