@@ -5,7 +5,7 @@ date: 2012-09-22 13:33
 comments: true
 categories: issue57 LINUX-LAB
 ---
- 
+
 #Mana World Server On Old Hardware
 #在旧硬件上安装Mana World服务器
 
@@ -16,11 +16,11 @@ categories: issue57 LINUX-LAB
 
 Traditionally our family has two periods of the year that we do a big cleanup - spring cleaning and at the start of a new year. This year, instead of tossing out our old Athlon64, I decided to reuse it as a development server for our existing MMORPG server. I first became aware of The Mana World (TMW) in late 2007 when the client software, tmw, appeared in the universe repositories of Ubuntu 7.10, Gutsy Gibbon. At the time, the TMW client was primitive but quite functional. Over the past several years, the game has advanced both on the client and server side.
 
-我家里有每年要进行两次大扫除的传统：一次在春天，另一次是在新年的时候。不过今年我并不打算扔掉我那古董处理器Athlon64，而是要把它改造成家里已有的MMORPG游戏服务器的开发服务器。我第一次听说The Mana World (TMW)是07年末的事情了，当时tmw客户端软件出现在了Ubuntu 7.10，Gutsy Gibbon的通用库里。那时候的TMW还很简易不过相当好用。现在经过几年的发展，这个游戏在客户端和服务器方面都有了长足的进步。
+我家里有每年要进行两次大扫除的传统：一次在春天，另一次是在新年的时候。不过今年我并不打算扔掉我那古董处理器Athlon64，而是要把它改造成家里已有的MMORPG游戏服务器的开发服务器。我第一次听说The Mana World (TMW)是2007年末的事情了，当时TMW客户端软件出现在了Ubuntu 7.10，Gutsy Gibbon的通用库里。那时候的TMW还很简易不过相当好用。现在经过几年的发展，这个游戏在客户端和服务器方面都有了长足的进步。
 
 The great thing about running a TMW server is that it doesn’t require a lot of horsepower if you plan on running a small server for friends and family. We originally set up our server on a Pentium III 1.1 GHz CPU with 256 MB of RAM (mind you the hard drives were lightning fast 15,000 RPM SCSI drives). This setup was enough to host 5 simultaneous players over the Internet on our ADSL connection. Currently, we host the Auldsbel server on a hyperthreaded Pentium 4 2.8 GHz system with 2 GB of RAM, and that also runs the front facing web server. Hosting a web server is helpful for getting the client software to show who else is online, but it’s not necessary to get the server running.
 
-TMW服务器有一个非常棒的优点：你并不需要太多资源就可以运行一个给朋友和家人共享的小型服务器。我们本来把服务器搭建在了内存为256 MB且主频为1.1GHz的Pentium CPU上（不过硬盘可是快如闪电的15,000转SCSI硬盘）。这个系统足以供五个玩家同时在我们的ADSL网络里进行游戏。最近，我们在一个2GB内存的超线程Pentium 4 2.8 GHz系统上运行了一个Auldsbel服务器，上面也运行着web前端服务器。运行一个网络服务器可以帮助客户端软件显示还有哪些玩家在线，不过并非需要此服务器一直运行。
+TMW服务器有一个非常棒的优点：你并不需要太多资源就可以运行一个给朋友和家人共享的小型服务器。我们本来把服务器搭建在内存为256 MB且主频为1.1GHz的Pentium CPU上（不过硬盘可是快如闪电的15,000转SCSI硬盘）。这个系统足以供五个玩家同时在我们的ADSL网络里进行游戏。最近，我们在一个2GB内存的超线程Pentium 4 2.8 GHz系统上运行了一个Auldsbel服务器，上面也运行着web前端服务器。运行一个网络服务器可以帮助客户端软件显示还有哪些玩家在线，不过并非需要此服务器一直运行。
 
 We used a server install of Ubuntu 10.04 LTS as the base for our server, and used a notebook running the client software to test the configuration. You may want to install the server on a desktop version of Ubuntu if you plan on using a single machine for the server and client. The TMW server is based on the eAthena (newer TMW server software exists that’s written from scratch, but the main server still uses modified eAthena code) project.
 
@@ -28,7 +28,7 @@ We used a server install of Ubuntu 10.04 LTS as the base for our server, and use
 
 eAthena was originally developed as an open-source server Ragnarok, but TMW developers have done a great job modifying it for the Mana World client. To begin, you need to install git-core, build-essential, flex, and bison:
 
-eAthena原本是为Ragnarok的开源服务器开发的，不过TMW的开发人员对它做了漂亮地修改以将其用于Mana World客户端上。要开始配置TMW服务器，你需要先安装git-core、build-essential、flex和bison:
+eAthena原本是为Ragnarok的开源服务器开发的，不过TMW的开发人员对它做了漂亮的修改以将其用于Mana World客户端上。要开始配置TMW服务器，你需要先安装git-core、build-essential、flex和bison:
 
     sudo apt-get install git-core build-essential flex bison
 
@@ -84,14 +84,14 @@ The last little bit of setup is to make the config files, and checkout client da
 
 At this point, our server is set for us to log-in locally. I set up a static IP for the development server in our Tomato-MLPPP Linksys WRT54L router, and assigned it the same hostname I assigned the production system. Before we can test the server, we have to load 3 server processes: the character server, the login server, and the map server (the configuration files for these three servers are what we’ll modify later for an Internet facing server). For now we’ll load the server executables to test the server:
 
-现在，我们的服务器已经可以本地登录了。在Tomato-MLPPP Linksys WRT54L路由器里我为这个开发服务器创建了一个静态IP地址，并给它分配了跟系统同样的主机名。在我们能够测试服务器之前，我们需要加载三个服务器进程：角色服务器，登录服务器和地图服务器（我们将会在后面为面向网络服务器调配这三个服务器的配置文件）。现在，我们就能加载服务器的可执行文件来测试服务器了：
+现在，我们的服务器已经可以本地登录了。在Tomato-MLPPP Linksys WRT54L路由器里我为这个开发服务器创建了一个静态IP地址，并给它分配了跟系统同样的主机名。在我们能够测试服务器之前，我们需要加载三个服务器进程：角色服务器、登录服务器和地图服务器（我们将会在后面为面向网络服务器调配这三个服务器的配置文件）。现在，我们就能加载服务器的可执行文件来测试服务器了：
 
     cd ~/tmw-ea/eathena-data
 
     ./char-server & ./login-server & ./map-server &
 
 
-When you log in to the server for the first time, you’ll see the character log-in on the terminal you launch the server from. 
+When you log in to the server for the first time, you’ll see the character log-in on the terminal you launch the server from.
 
 当你第一次登录服务器的时候，在启动服务器的终端里将看到角色登录。
 
@@ -152,7 +152,7 @@ In order to make your server available to everyone on the Internet, you’ll nee
 
 There are 3 variables we want to set, the IP addresses for the login server, the character server, and the map server. If you’re using a dynamic DNS service, the dynamic DNS name can be used in the place of the character and map server, but you should use your local address for the login server (on our test server we used 127.0.0.1 and it worked fine for the login server). Note that if your DNS changes while the server is online the server may be unavailable. Our ISP offers a very inexpensive static IP address, which is what we use in place of the character and map server variables. Our char_local.conf looks something like this:
 
-在这儿我们需要设置3个变量：登陆服务器、角色服务器和地图服务器的IP地址。如果你采用动态获取DNS，也可以在角色和地图服务器里使用这个动态DNS，但你必须要用你的本地IP地址来设置登陆服务器（测试中，我们使用的是127.0.0.1本地回坏地址，在登录服务器上它运行良好）。需要注意的是，当你服务器在线时，如果改变DNS会让服务器挂掉的。我们的互联网提供商（ISP）提供了一个非常便宜的静态IP地址，所以我们可以把它用做角色和地图服务器的IP变量。我们的char_local.conf文件应该是这样的：
+在这儿我们需要设置3个变量：登陆服务器、角色服务器和地图服务器的IP地址。如果你采用动态获取DNS，也可以在角色和地图服务器里使用这个动态DNS，但你必须要用你的本地IP地址来设置登陆服务器（测试中，我们使用的是127.0.0.1本地回环地址，在登录服务器上它运行良好）。需要注意的是，当你服务器在线时，如果改变DNS会让服务器挂掉的。我们的互联网提供商（ISP）提供了一个非常便宜的静态IP地址，所以我们可以把它用做角色和地图服务器的IP变量。我们的char_local.conf文件应该是这样的：
 
     // Comment : Login server IP
     login_ip: 127.0.0.1
@@ -178,7 +178,7 @@ You can find a number of other configuration files in the ~/tmw-ea/eathena-data/
 
 Like a lot of Linux software, the Mana World eAthena server is highly customizable. While you can run a server identical to the main server, you’ll probably want to customize your server more extensively. Good sources for information on further customization can be found on the Mana World forums, wiki, and in the How to Develop sections of the Mana World web site.
 
-跟许多其他的Linux软件一样，Mana World eAthena服务器具有高的可自定义性。当你运行一个与官方服务器完全相同的服务器时，也许希望它能够变得更加丰富些。有关自定义客户端的资料可以在Mana World论坛，wiki和How to Develop sections of the Mana World网站中找到。
+跟许多其他的Linux软件一样，Mana World eAthena服务器具有高可自定义性。当你运行一个与官方服务器完全相同的服务器时，也许希望它能够变得更加丰富些。有关自定义客户端的资料可以在Mana World论坛，wiki和How to Develop sections of the Mana World网站中找到。
 
 URLs of Interest:
 
