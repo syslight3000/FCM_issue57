@@ -9,6 +9,7 @@ categories:  issue57 command-and-conquer
 #Using SSH And Rsync
 #使用SSH和Rsync
 Written by Lucas Westermann
+
 `Lucas Westermann 著 翻译：黄傲妮 校对：Kitty`
 
 Back in issue #37, I wrote about configuring an SSH server on your computer, in order to use it as a SOCKS proxy. Since I imagine not all that many people want to use it as such, I decided to focus on my second-most used command (my first-most used command is “pacman” - ArchLinux's solution to package management). Before I get into what that command is, I'll briefly explain why you might be interested in this solution. Specifically, it lets you sync directories and files between two computers over the LAN (and, if properly configured, over the Internet as well). I use it in order to keep my music synced between my laptop and my PC, keep my configuration files up-to-date, and to copy anything I need from one device to the other. There are a few choices of commands you could use, two of which would be scp (secure copy), and rsync. I'll be focusing on rsync in this article, because it offers progress information, update features, and useful switches like --ignore-existing.
@@ -116,7 +117,8 @@ This will then copy it over. Logically, you'll want to use the actual IP of your
 
 As we round off this article, I'd like to make a few notes on off-site syncing: Syncing over the Internet, while useful, should be kept to a minimum, simply because the traffic, while encrypted, will be rather large, and might cause issues with an admin, or any kind of data limit you might have. Also, ssh keys are (generally) more secure than passwords, so I highly recommend using them wherever possible.
 
-为了圆满结束这篇文章，我想做几点syncing之外的笔记：在互联网上同步，虽然有用，但是应该保持一个最低限度，这仅仅是因为网络流量；虽然加密，但是将会相当庞大，还可能造成管理问题，又或者你可能会碰到一些数据的限制。再者，ssh密钥比密码更安全，所以无论如何我强烈推荐你使用它们。
+为了圆满结束这篇文章，我想做几点syncing之外的笔记：在互联网上同步，虽然有用，但是应该保持一个最低限度，这仅仅是因为网络流量；虽然加密，但是将会相当庞大，还可能造成管理问题，又或者你可能会碰到一些数据的限制。再者，ssh密钥比密码更安全，所以无论如何我强烈推荐你使用它们。
+
 If there is a large influx of requests for an actual example script, I will happily deliver it next month. I do, however, recommend you try writing your own, or customize any example scripts you find to suit your needs. If you're of the opinion you'd like one, please let me know in an email (address is below). If you have some concrete questions about a script you're writing yourself, you're also welcome to email me about it.
 
 如果大家对真实的样例脚本有大量请求，我会很乐意在下个月递送。然而，我建议你尝试写自己的，或者定制任何适合你需求的例子脚本。如果你确实想要一个示例脚本，请发邮件让我知道（地址在下方）。如果你自己的脚本有具体问题，也可以发邮件给我。
