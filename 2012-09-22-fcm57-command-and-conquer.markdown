@@ -63,14 +63,23 @@ As you can see from point 3 above, rsync offers a lot of checks to avoid copying
     --partial: Keep partially copied files
 
 -u (--update): 跳过接收端上较新的文件
+
 --inplace: 原位更新文件 
+
 --append: 在较短的文件末添加数据
+
 -x: 避免越过文件系统界限（即坚持一个分区）
+
 --existing: 不在接收端上创建一个新的文件，仅仅更新已存在的文件
+
 --ignore-existing: 忽略接收端已存在的文件
+
 --max-size=SIZE: 不复制任何比此文件大的文件（--min-size 也存在，尽管在这种情况下用处不大）
+
 --exclude=PATTERN: 排除与此模式匹配的所有文件
+
 --exclude-from=FILE: 从文件读取模式
+
 --partial: 保留部分复制的文件
 
 Some other useful switches for rsync:
@@ -86,11 +95,17 @@ Some other useful switches for rsync:
 rsync其他一些有用的开关：
 
 --delay-updates: 将更新的文件放在最后
+
 -r (--recursive): 依随目录树
+
 -d: 非递归复制目录（默认情况下rsync根本不进入任何目录）
+
 -l (--links): 复制符号连接作为符号连接
+
 -E (--executability): 保持文件的可执行性（对脚本有用）
+
 -h: 大小和输出的可读性
+
 --progress: 每个文件都显示进度条
 
 
