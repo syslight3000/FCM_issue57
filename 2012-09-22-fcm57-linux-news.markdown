@@ -47,8 +47,6 @@ Source: [informationweek.com](http://informationweek.com)
 
 ## EPUB / MOBI
 
-## EPUB / MOBI
-
 Finally we have both epub and mobi formatted Full Circle on the downloads page. At the moment it's only FCM#56 that's online, but we're hoping to have back issues online shortly. If you've any problems with the epub/mobi files/formatting you can drop an email to Jens at: mobile@fullcirclemagazine.org
 
 现在我们提供epub和mobi格式的Full Circle杂志下载了。虽然暂时只提供56期的杂志下载，不过我们会尽快将往期杂志的epub和mobi文件也放发布出来。任何有关epub/mobi文件的问题，请发邮件给Jens：mobile@fullcirclemagazine.org
