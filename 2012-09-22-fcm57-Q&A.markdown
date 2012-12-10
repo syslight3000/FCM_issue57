@@ -17,21 +17,27 @@ Elizabeth Krumbach: 可以先介绍一下自己吗？
 Gema Gomez-Solano (above): I love good software and computers. When I was at high school, and I watched the film Sneakers, I decided to become a Computer Engineer. I admired those computer wizards who could do almost anything with a keyboard. I really wanted to be part of a group that could do cool things with technology, no matter how complicated.
 
 
-Gema Gomez-Solano (above)：我喜欢优秀的软件和电脑。中学的时候，我看了《通天神偷》之后，我就决定，长大了要当一个电脑工程师。当时我非常佩服那些计算机高手，他们可以用键盘做各种事情。我当时非常希望能成为他们中的一员，用技术实现一些很酷的东西，不管这个东西有多复杂。
+Gema Gomez-Solano (above)：我喜欢好的软件和电脑。在中学的时候，我看过《通天神偷》之后，我就决定长大了要当一个电脑工程师。当时我很佩服那些计算机高手，他们几乎可以用键盘做各种事情。我当时非常希望能成为他们中的一员，用技术实现一些很酷的事情，不管这些事情有多复杂。
 
 I studied Computer Engineering in Barcelona, Spain; a Master equivalent degree at the Catalonia Polytechnic University. After finishing university, I was hired by a security company in Barcelona to do security audits and assessments.
 
-我在西班牙巴塞罗那的加泰罗尼亚理工大学读计算机工程专业，活动基本上等同于硕士的学位。毕业后，我受聘于巴塞罗那一家安全公司，工作主要是安全审计和评估。
+我在西班牙巴塞罗那的加泰罗尼亚理工大学就读计算机工程专业，一个等同于加泰罗尼亚理工大学硕士的学位。毕业后，我受聘于巴塞罗那一家安全公司，负责安全审计和评估的工作。
 
 In 2004, given my security background, I was offered a role in London as a Test Engineer at Symbian within the security team. This was my first time working at an English company, and in an international environment. We had teams in the UK and India, and later in China. Testing an operating system was one of the most complex and enlightening experiences of my career. I grew as a tester and as a QA engineer during the first years there. The security team moved to Cambridge and I decided to stay in London doing integration testing within the kernel team.
 
-2004年，因为有计算机安全领域的工作经验，我在塞班公司的安全小组找到一份测试工程师的工作，地点是在伦敦。
+在2004年，因为有着计算机安全领域的工作经验，我在伦敦的塞班公司中受聘为安全小组的一名测试工程师。这是我首次在英国的公司工作，而且在国际的环境底下。我们有来自英国及印度，还有中国的团队。测度操作系统是我的职业里其中一个最复杂和启发性的经验。在那里的第一年，我从一名测试员成长为一名QA工程师。之后安全小组搬到剑桥，而且我则继续留在伦敦与内核团队做综合测试。
 
 Then, in 2007, Symbian decided they wanted to build a strong System Test team, and offered me the Technology Architect position for that team. We built a technically strong test team who changed the quality of the OS visibly and for good. It felt great to see that project develop after all the battles that we had to fight to make it happen.
 
+之后，在2007年，塞班公司决定要成立一个强大的测试团队，并且受予我成为该团队的技术建筑师。我们成建立了强大的技术测试团队，主要负责系统的能见度和产品的质量。令人高兴地看到的是计划在所有必需争取做到的测试后得以发展。
+
 Then Nokia took over Symbian, and announced it was going to become open-source. After spending 9 months helping the team to integrate in the new organisation, I decided to take some time off to rethink my career to find the next challenge. I had seen the team grow and establish itself as a smoothly running testing team, so my job there felt done and I was eager to find a new project that I could help develop and build.
 
+之后诺基亚收购寒班，并且宣告它将成为开源。在花费了9个月的时间去帮助团队整合到新的公司，我决定用休息一段时间去重新思考我的职业寻找下一个挑战。我已经看到团队自我成长和发展为一个流畅运作的团伍，到此我在这的工作已经完成，从而渴望找到一个我能够帮助去建立和发展的新计划。
+
 As my next challenge I took up an opportunity to join VMware in London. I did API testing for almost a year with them but it didn't really feel like the challenge I had been seeking. So I kept trying to find what I was looking for, and that's how I came across Canonical and the Ubuntu project. It was an operating system; it was in need of testing if it was to become the predominant OS. And, most importantly, it was a chance to collaborate with a great community from around the globe. This opportunity got my attention instantly, and, when I was offered the QA Engineer position, I didn't hesitate.
+
+作为我下一个的挑战，我获得一个加入伦敦VMware公司的机会。我替它们做API测试差不多一年，但感觉不像我要找的挑战。所以我继续尝试去寻找，也就是我如何遇到Canonical公司及Ubuntu计划的经过。它是一个操作系统，如果它想成为优越的系统还需要测试。而且最重要的是，这是与世界各地庞大社区合作的一个机会。这个机会立即引起了我的重视，之后当我接受QA工程师的聘请时，我毫不犹疑。
 
 Five months and one UDS down the line, it still feels good and lots of things are starting to happen within the Canonical Platform QA team and within the community in terms of QA. I enjoy seeing how my work has a direct impact on a system used by millions worldwide. I would like to see Ubuntu become the operating system everyone uses and that comes with every computer that is sold. Most importantly, I personally would like to see the QA work that we are doing for Ubuntu become a de facto standard in terms of quality assurance and good testing practices.
 	
